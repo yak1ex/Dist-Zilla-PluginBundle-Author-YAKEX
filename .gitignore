@@ -1,0 +1,4 @@
+.build/
+Dist-Zilla-PluginBundle-Author-YAKEX-*.tar.gz
+Dist-Zilla-PluginBundle-Author-YAKEX-*/
+*.BAK
