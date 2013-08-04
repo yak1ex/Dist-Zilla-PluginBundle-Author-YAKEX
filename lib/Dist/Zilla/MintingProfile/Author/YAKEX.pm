@@ -21,11 +21,19 @@ __END__
 
 =head1 DESCRIPTION
 
-This is a L<Dist::Zilla> MintingProfile used by YAKEX's distribution. It setup the following files:
+This is a L<Dist::Zilla> MintingProfile used by YAKEX's distribution. It setups the following files:
 
+  .gitignore
+  Changes
   MANIFEST.SKIP
   dist.ini
   perlcritic.rc
   weaver.ini
 
 in addition to the distribution main module.
+
+=head1 SEE ALSO
+
+=for :list
+* L<Dist::Zilla::Role::MintingProfile>
+* L<Dist::Zilla::PluginBundle::Author::YAKEX>
