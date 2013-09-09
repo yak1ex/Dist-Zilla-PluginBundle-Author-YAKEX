@@ -2,6 +2,10 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+v0.1.0    2013-09-10 02:19:14 Asia/Tokyo
+    - Specify some plugin versions explicitly (close gh-2).
+    - Enable build_prereq_matches_use in Test::Kwalitee::Extra (close gh-3).
+
 v0.0.2    2013-08-05 07:15:56 Asia/Tokyo
     - Add a minting profile (gh-1).
 
