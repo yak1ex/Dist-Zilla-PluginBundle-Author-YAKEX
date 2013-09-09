@@ -33,7 +33,7 @@ sub configure
 			GithubMeta MetaJSON PodWeaver OurPkgVersion CheckVersionIncrement MinimumPerl
 			PodSyntaxTests PodCoverageTests Test::Perl::Critic Test::Compile
 		],
-		[ 'Test::Kwalitee::Extra' => { arg => '!has_example' } ],
+		[ 'Test::Kwalitee::Extra' => { arg => ['!has_example', 'build_prereq_matches_use'] } ],
 		[ Twitter => { url_shortener => 'none', hash_tags => '#perl' } ],
 	);
 }
