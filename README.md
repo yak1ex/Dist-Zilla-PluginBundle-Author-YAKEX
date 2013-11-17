@@ -4,7 +4,7 @@ Dist::Zilla::PluginBundle::Author::YAKEX - Dist::Zilla configuration the way YAK
 
 # VERSION
 
-version v0.1.3
+version v0.1.4
 
 # SYNOPSIS
 
