@@ -2,6 +2,9 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+v0.1.2    2013-11-17 13:11:13 Asia/Tokyo
+    - Add prereqs for POD related modules (close gh-4).
+
 v0.1.1    2013-09-26 16:27:26 Asia/Tokyo
     - Update the version of DZP::Test::Compile and related modules to avoid possible Win32 hangs.
 
