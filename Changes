@@ -2,6 +2,9 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+v0.1.3    2013-11-17 23:22:43 Asia/Tokyo
+    - Require Module::ExtractUse 0.32 (close gh-5).
+
 v0.1.2    2013-11-17 13:11:13 Asia/Tokyo
     - Add prereqs for POD related modules (close gh-4).
 
