@@ -33,7 +33,7 @@ sub configure
 			GithubMeta MetaJSON PodWeaver OurPkgVersion CheckVersionIncrement MinimumPerl
 			PodSyntaxTests PodCoverageTests Test::Perl::Critic Test::Compile
 		],
-		[ 'Test::Kwalitee::Extra' => { arg => ['!has_example', 'build_prereq_matches_use'] } ],
+		[ 'Test::Kwalitee::Extra' => { arg => ['!has_example'] } ],
 		[ Twitter => { url_shortener => 'none', hash_tags => '#perl' } ],
 	);
 }
@@ -82,6 +82,7 @@ This is a L<Dist::Zilla> PluginBundle used by YAKEX's distribution. It is equiva
   [Test::Compile]
   [Test::Kwalitee::Extra]
   arg = !has_example
+  arg = !build_prereq_matches_use
   
   [Twitter]
   url_shortener = none
