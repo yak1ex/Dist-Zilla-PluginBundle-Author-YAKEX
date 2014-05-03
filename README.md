@@ -4,7 +4,7 @@ Dist::Zilla::PluginBundle::Author::YAKEX - Dist::Zilla configuration the way YAK
 
 # VERSION
 
-version v0.1.4
+version v0.1.5
 
 # SYNOPSIS
 
@@ -13,15 +13,13 @@ version v0.1.4
 
 # DESCRIPTION
 
-This is a [Dist::Zilla](http://search.cpan.org/perldoc?Dist::Zilla) PluginBundle used by YAKEX's distribution. It is equivalent to the following dist.ini
+This is a [Dist::Zilla](https://metacpan.org/pod/Dist::Zilla) PluginBundle used by YAKEX's distribution. It is equivalent to the following dist.ini
 
     [@Basic]
     
-
     [NextRelease]
     filename = Changes
     
-
     [@Git]
     commit_msg = Released as %v%n%n%c
     tag_format = %v
@@ -30,13 +28,11 @@ This is a [Dist::Zilla](http://search.cpan.org/perldoc?Dist::Zilla) PluginBundle
     allow_dirty = README.md
     allow_dirty = dist.ini
     
-
     [ReadmeAnyFromPod]
     type = markdown
     filename = README.md
     location = root
     
-
     [GithubMeta]
     [MetaJSON]
     [PodWeaver]
@@ -48,13 +44,12 @@ This is a [Dist::Zilla](http://search.cpan.org/perldoc?Dist::Zilla) PluginBundle
     [Test::Compile]
     [Test::Kwalitee::Extra]
     arg = !has_example
+    arg = !build_prereq_matches_use
     
-
     [Twitter]
     url_shortener = none
     hash_tags = #perl
     
-
     [MinimumPerl]
 
 This PluginBundle also supports PluginRemover, so dropping a plugin is as easy as this:
@@ -66,7 +61,7 @@ This PluginBundle also supports PluginRemover, so dropping a plugin is as easy a
 
 ## `configure`
 
-See [Dist::Zilla::Role::PluginBundle::Easy](http://search.cpan.org/perldoc?Dist::Zilla::Role::PluginBundle::Easy)
+See [Dist::Zilla::Role::PluginBundle::Easy](https://metacpan.org/pod/Dist::Zilla::Role::PluginBundle::Easy)
 
 # AUTHOR
 
