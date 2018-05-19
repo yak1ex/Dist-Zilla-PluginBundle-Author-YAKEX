@@ -30,7 +30,7 @@ sub configure
 			location => 'root',
 		} ],
 		qw[
-			GithubMeta MetaJSON PodWeaver OurPkgVersion CheckVersionIncrement MinimumPerl
+			GithubMeta Git::Contributors MetaJSON PodWeaver OurPkgVersion CheckVersionIncrement MinimumPerl
 			PodSyntaxTests PodCoverageTests Test::Perl::Critic Test::Compile
 		],
 		[ 'Test::Kwalitee::Extra' => { arg => ['!has_example'] } ],
@@ -72,6 +72,7 @@ This is a L<Dist::Zilla> PluginBundle used by YAKEX's distribution. It is equiva
   location = root
   
   [GithubMeta]
+  [Git::Contributors]
   [MetaJSON]
   [PodWeaver]
   [OurPkgVersion]

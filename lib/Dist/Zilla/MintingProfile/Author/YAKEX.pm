@@ -24,6 +24,7 @@ __END__
 This is a L<Dist::Zilla> MintingProfile used by YAKEX's distribution. It setups the following files:
 
   .gitignore
+  .mailmap
   Changes
   MANIFEST.SKIP
   dist.ini
